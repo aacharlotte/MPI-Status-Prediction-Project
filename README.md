@@ -101,7 +101,7 @@ Weighted Avg (0.90): Because the negative class has many more samples, this aver
 **Key Observations:**
 
 - Both the both train and validation (test) loss lines are decreasing steadily over epochs, with the training loss always lower than validation loss, but they move in the same direction.
-- This shows that the model is learning well, as * loss is consistently decreasing on both the train and validation sets.*
+- This shows that the model is learning well, as *loss is consistently decreasing on both the train and validation sets.*
 - There’s no major overfitting yet.The small gap between train and validation loss shows that the model fits training data slightly better (expected).
   
   ***The model will be trained longer and monitored until validation loss flattens or starts going up while training loss keeps dropping.*** 
