@@ -85,7 +85,7 @@ The project was conducted in several stages: (1) data preprocessing, including h
 4. Baseline Logistic regression model
 
 **Overall Comparisons:**
-- The tuned models have identical, very high macro recall+precision scores (~0.82). However, their accuracy is drastically lower (0.69 and 0.82 respectively) than the Random Forest's (0.90).
+- The tuned logistic regression model and decision tree have identical, very high macro recall+precision scores (~0.82). However, their accuracy is significantly lower (0.69 and 0.82 respectively) than the Random Forest's (0.90).
 - This difference suggests that the tuned LogReg and Decision Tree likely sacrificed performance on the majority class to boost performance on the minority class. This is a common outcome when using techniques like class_weight='balanced'. The Random Forest had a high performance on the minority class without sacrificing performance on the majority class. This clearly makes it the best performing model.
 - The Decision tree outcompetes the tuned LogReg model when it comes to overall accuracy.
 - The baseline LogReg is the poorest performer of all and highlights the importance of hyperparameter tuning.
