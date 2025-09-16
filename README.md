@@ -69,8 +69,8 @@ The project was conducted in several stages: (1) data preprocessing, including h
 - **Precision vs Recall:** Higher precision for the negative class (0.91) than the positive class (0.89), but both are generally very good. The model seems slightly more conservative about labeling a prediction positive (poor). Some true positives (truly poor) can be missed due to this.
 
 **Comparison of Averages**
--Macro Avg (0.85): Quite a good score.
-Weighted Avg (0.90): Because the negative class has many more samples, this average is pulled much closer to its performance and matches the overall accuracy
+- Macro Avg (0.85): Quite a good score.
+- Weighted Avg (0.90): Because the negative class has many more samples, this average is pulled much closer to its performance and matches the overall accuracy
  
 
 ---
