@@ -96,7 +96,7 @@ The project was conducted in several stages: (1) data preprocessing, including h
 ### NN with selected features
 **Training Loss:**
 
-<img src="https://github.com/aacharlotte/MPI-Status-Prediction-Project/blob/main/NN%20loss.jpeg" width="50%" />
+<img src="https://github.com/aacharlotte/MPI-Status-Prediction-Project/blob/main/Loss.png" width="50%" />
 
 **Key Observations:**
 
