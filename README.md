@@ -123,7 +123,7 @@ The project was conducted in several stages: (1) data preprocessing, including h
 ---
 
 # Streamlit App
-https://aacharlotte-mpi-status-prediction-app1-0k9nru.streamlit.app/
+https://mpi-status-prediction-app-fa4zkysfsc2lsuqsvetxse.streamlit.app/
 
 
 
